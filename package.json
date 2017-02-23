@@ -1,0 +1,17 @@
+{
+  "name": "downer",
+  "version": "1.0.0",
+  "description": "A download manager application built with electron and react.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "build-watch": "webpack --progress --colors --watch"
+  },
+  "author": "John Kahn",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "request": "^2.79.0",
+    "request-progress": "^3.0.0"
+  }
+}
